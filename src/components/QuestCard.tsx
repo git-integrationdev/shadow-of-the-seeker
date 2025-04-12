@@ -18,14 +18,14 @@ const quests: Quest[] = [
     title: 'The Awakening Crystals',
     description: 'Deep within the Crystal Vale lie three ancient awakening crystals, their energies dormant for millennia. These artifacts are said to be keys that can restore the balance of elemental forces in Lumina.',
     objective: 'Locate and attune to all three awakening crystals scattered throughout the Crystal Vale.',
-    challenge: 'The crystals are guarded by echo spirits that reflect the seeker's own doubts and fears.',
+    challenge: "The crystals are guarded by echo spirits that reflect the seeker's own doubts and fears.",
     region: 'Crystal Vale',
     icon: '✧'
   },
   {
     id: 'codex',
     title: 'The Forgotten Codex',
-    description: 'Ancient texts speak of a codex containing knowledge from the civilization that first harnessed Lumina\'s mystical energies. It was divided and hidden when darkness threatened to consume its power.',
+    description: "Ancient texts speak of a codex containing knowledge from the civilization that first harnessed Lumina's mystical energies. It was divided and hidden when darkness threatened to consume its power.",
     objective: 'Recover the scattered pages of the codex from within the treacherous Forgotten Spires.',
     challenge: 'The spires shift and change, with pathways that exist in multiple realities simultaneously.',
     region: 'The Forgotten Spires',
