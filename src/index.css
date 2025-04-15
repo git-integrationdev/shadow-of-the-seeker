@@ -1,11 +1,12 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 120 50% 5%;  // Dark green background
-    --foreground: 120 40% 98%; // Light green foreground
+    --background: 120 50% 5%;  /* Dark green background */
+    --foreground: 120 40% 98%; /* Light green foreground */
 
     --card: 120 30% 10%;
     --card-foreground: 120 40% 98%;
@@ -13,16 +14,16 @@
     --popover: 120 30% 10%;
     --popover-foreground: 120 40% 98%;
 
-    --primary: 120 83% 65%;  // Vibrant green primary color
+    --primary: 120 83% 65%;  /* Vibrant green primary color */
     --primary-foreground: 120 40% 98%;
 
-    --secondary: 150 70% 50%;  // Complementary green secondary color
+    --secondary: 150 70% 50%;  /* Complementary green secondary color */
     --secondary-foreground: 120 40% 98%;
 
     --muted: 120 30% 20%;
     --muted-foreground: 120 20% 80%;
 
-    --accent: 140 80% 60%;  // Another green accent
+    --accent: 140 80% 60%;  /* Another green accent */
     --accent-foreground: 120 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
