@@ -1,48 +1,47 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 240 50% 5%;
-    --foreground: 220 40% 98%;
+    --background: 120 50% 5%;  // Dark green background
+    --foreground: 120 40% 98%; // Light green foreground
 
-    --card: 240 30% 10%;
-    --card-foreground: 220 40% 98%;
+    --card: 120 30% 10%;
+    --card-foreground: 120 40% 98%;
 
-    --popover: 240 30% 10%;
-    --popover-foreground: 220 40% 98%;
+    --popover: 120 30% 10%;
+    --popover-foreground: 120 40% 98%;
 
-    --primary: 252 83% 65%;
-    --primary-foreground: 220 40% 98%;
+    --primary: 120 83% 65%;  // Vibrant green primary color
+    --primary-foreground: 120 40% 98%;
 
-    --secondary: 280 70% 50%;
-    --secondary-foreground: 220 40% 98%;
+    --secondary: 150 70% 50%;  // Complementary green secondary color
+    --secondary-foreground: 120 40% 98%;
 
-    --muted: 240 30% 20%;
-    --muted-foreground: 220 20% 80%;
+    --muted: 120 30% 20%;
+    --muted-foreground: 120 20% 80%;
 
-    --accent: 300 80% 60%;
-    --accent-foreground: 220 40% 98%;
+    --accent: 140 80% 60%;  // Another green accent
+    --accent-foreground: 120 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 240 30% 20%;
-    --input: 240 30% 20%;
-    --ring: 252 83% 65%;
+    --border: 120 30% 20%;
+    --input: 120 30% 20%;
+    --ring: 120 83% 65%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 240 30% 10%;
-    --sidebar-foreground: 220 40% 98%;
-    --sidebar-primary: 252 83% 65%;
-    --sidebar-primary-foreground: 220 40% 98%;
-    --sidebar-accent: 240 30% 15%;
-    --sidebar-accent-foreground: 220 40% 98%;
-    --sidebar-border: 240 30% 20%;
-    --sidebar-ring: 252 83% 65%;
+    --sidebar-background: 120 30% 10%;
+    --sidebar-foreground: 120 40% 98%;
+    --sidebar-primary: 120 83% 65%;
+    --sidebar-primary-foreground: 120 40% 98%;
+    --sidebar-accent: 120 30% 15%;
+    --sidebar-accent-foreground: 120 40% 98%;
+    --sidebar-border: 120 30% 20%;
+    --sidebar-ring: 120 83% 65%;
   }
 }
 
@@ -54,8 +53,8 @@
   body {
     @apply bg-background text-foreground;
     background-image: 
-      radial-gradient(circle at 10% 20%, rgba(120, 0, 255, 0.1) 0%, transparent 30%),
-      radial-gradient(circle at 90% 80%, rgba(0, 200, 255, 0.08) 0%, transparent 40%);
+      radial-gradient(circle at 10% 20%, rgba(0, 255, 50, 0.1) 0%, transparent 30%),
+      radial-gradient(circle at 90% 80%, rgba(0, 255, 50, 0.08) 0%, transparent 40%);
   }
   
   /* Mystical title and header styles */
